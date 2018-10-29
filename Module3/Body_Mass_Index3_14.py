@@ -33,7 +33,6 @@ def main():
     elif BMI>25:
         print('Your weight is overweight!')
     
-
 main()
 
 
