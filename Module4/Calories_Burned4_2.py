@@ -17,7 +17,7 @@ def main():
     # Print minutes and their calories.
     for num in [10,15,20,25]:
         per_minute=4.2*num
-        print(num,'\t',format(per_minute,'.2f'))
+        print(num,'\t',format(per_minute,'.0f'))
     
 
 
