@@ -19,7 +19,8 @@ def main():
     for years in range (1,num_years+1):
         for month in range(1,13):
             rain_month=int(input('Enter the inches of  ' +\
-                           'rainfall for that month '+format(month,'d')+':'))
+                           'rainfall for that month '+format(month,'d')+\
+                                 ',year '+ format(years,'d')+': '))
             total_inch+=rain_month
             total_month+=1
     average=total_inch/total_month
