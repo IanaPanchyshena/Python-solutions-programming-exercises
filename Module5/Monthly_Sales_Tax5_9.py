@@ -20,9 +20,9 @@ def main():
     sales_tax=get_sales_tax(total_sales)
     total_tax=get_total_tax(county_tax,sales_tax)
     
-    print('The amount of county sales tax: $',county_tax,sep='')
-    print('The amount of state sales tax: $',sales_tax,sep='' )
-    print('The total sales tax (county plus state: $',total_tax,sep='')
+    print('The amount of county sales tax: $',format(county_tax,'.2f'),sep='')
+    print('The amount of state sales tax: $',format(sales_tax,'.2f'),sep='' )
+    print('The total sales tax (county plus state: $',format(total_tax,'.2f'),sep='')
 
 def get_county_tax(sales):
     return sales*rate_county_tax
