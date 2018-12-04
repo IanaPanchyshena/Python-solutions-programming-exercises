@@ -12,7 +12,7 @@ def main():
     list_number=[]
     total=0
     for number in range (20):
-        number=float(input('Enter the number: '+format(number+1)+' '))
+        number=float(input('Enter the number '+format(number+1)+': '))
         list_number.append(number)
         total+=number
         average=total/len(list_number)
